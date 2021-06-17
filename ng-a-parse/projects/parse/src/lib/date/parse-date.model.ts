@@ -1,15 +1,3 @@
-// List of pre-defined converters
-export type StandardModelValueConverters =
-  | 'number-timestamp'
-  | 'date'
-  | 'string-iso-datetime-with-zone'
-  | 'string-iso-datetime'
-  | 'string-iso-datetime-short'
-  | 'string-iso-time-with-zone'
-  | 'string-iso-time'
-  | 'string-iso-time-short'
-  | 'string-iso-date';
-
 // List of known angular DatePipe formats, not all are implemented, more info: https://angular.io/api/common/DatePipe#pre-defined-format-options
 export type BasicDateFormat =
   | 'short'
