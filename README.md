@@ -41,7 +41,7 @@ const parts: DateType[] = parser.types;
 const hasYear = parts.includes(DateType.FullYear); // true
 const hasMinutes = parts.includes(DateType.Minutes) // false
 ```
-* parseDate
+* toDate
 ```typescript
 const dateFromMs: Date = toDate(1623926493809);
 const dateFromDate: Date = toDate(new Date()); 
