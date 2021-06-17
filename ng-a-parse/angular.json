@@ -1,0 +1,39 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "version": 1,
+  "cli": {
+    "packageManager": "yarn"
+  },
+  "newProjectRoot": "projects",
+  "projects": {
+    "parse": {
+      "projectType": "library",
+      "root": "projects/parse",
+      "sourceRoot": "projects/parse/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "tsConfig": "projects/parse/tsconfig.lib.json",
+            "project": "projects/parse/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/parse/tsconfig.lib.prod.json"
+            }
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/parse/src/test.ts",
+            "tsConfig": "projects/parse/tsconfig.spec.json",
+            "karmaConfig": "projects/parse/karma.conf.js"
+          }
+        }
+      }
+    }
+  },
+  "defaultProject": "parse"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "@annotation/ng-parse",
+  "version": "1.0.0",
+  "description": "Angular date parsing/formatting utility",
+  "peerDependencies": {
+    "@angular/common": "^11.2.6",
+    "@angular/core": "^11.2.6",
+    "@angular/forms": "^11.2.6",
+    "@angular/localize": "^11.2.6",
+    "rxjs": "^6.6.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AnnotationSro/ng-a-parse.git"
+  },
+  "author": "Pavol Slaný <pavol.slany@annotation.sk> (https://github.com/slany/)",
+  "contributors": [
+    "Martin Filo <martin.filo@annotation.sk> (https://github.com/Chiff/)"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "tslib": "^2.0.0"
+  }
+}

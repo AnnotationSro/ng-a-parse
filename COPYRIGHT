@@ -1,0 +1,7 @@
+This repository is built thanks to other opensource projects.
+
+Projects (or their parts) listed below are used in this repository:
+
+* @angular/angular, MIT, https://github.com/angular/angular
+
+Note: Projects are also listed in package.json files
